@@ -1,0 +1,255 @@
+.section{
+    width: 100%;
+    height: 1200px;
+    background:#64B3C0;
+}
+.top1{
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    border-bottom: 3px solid #D1EBEF;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.top1 ul{
+    width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.top1 ul li{
+    margin-top: 55px;
+    width: 80px;
+    height: 40px;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    font-family: "楷体";
+}
+.top1 ul li:nth-child(3){
+    margin-top: 0;
+}
+.top1 ul li:hover{
+    color: #ee5544;
+}
+.top1 ul li img{
+    margin-top: 0;
+    display: block;
+    width: 120px;
+    height: 100px;
+
+}
+.one{
+    display: none;
+}
+/*.one:hover .two{*/
+    /*display: block;*/
+/*}*/
+.two{
+    display: block;
+}
+.banner{
+    width: 100%;
+    height: 580px;
+    box-sizing: border-box;
+    border-bottom: 10px solid #D1EBEF;
+    background-image: url("../img/16122704-d204e2e72d4ac39b372e03aab82de2b8-1.jpg");
+    background-position: center;
+}
+/*.banner img{*/
+    /*display: block;*/
+    /*width: 100%;*/
+    /*height: 100%;*/
+/*}*/
+.fenlei{
+    width: 1200px;
+    height: 300px;
+    margin: 80px auto;
+}
+.fenlei ul{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 25px;
+}
+.fenlei ul li{
+    width: 560px;
+    height: 120px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    border-radius: 60px;
+    /*margin: 25px;*/
+}
+.tu{
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    float: left;
+}
+.tu img{
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+}
+.zi{
+    width: 440px;
+    height: 120px;
+    float: left;
+    border-radius: 60px;
+}
+.zi p{
+    color: white;
+    width: 440px;
+    height: 120px;
+    box-sizing: border-box;
+    padding: 20px;
+    /*text-align: center;*/
+    line-height: 40px;
+    font-size: 14px;
+}
+
+.fenlei ul li:nth-child(2){
+    margin-right: 0;
+}
+.fenlei ul li:nth-child(4){
+    margin-right: 0;
+}
+.db{
+    width: 100%;
+    height: auto;
+    background: #345D59;
+    box-sizing: border-box;
+    padding: 60px;
+    position: relative;
+}
+.a{
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    color: white;
+    line-height: 24px;
+    text-align: left;
+    font-size: 16px;
+}
+.a1{
+    width: 100%;
+    height: 100%;
+}
+.a1 ul{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    float: left;
+}
+.a1 ul li{
+    width: 36px;
+    height: 36px;
+    background: #86888B;
+    border-radius: 50%;
+    float: right;
+    margin-right: 5px;
+}
+.a1 ul li:nth-child(5){
+    background-image: url('../img/fh.png');
+    background-size: 25px 25px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.a1 ul li:nth-child(5):hover{
+    background: blue;
+    background-image: url('../img/fb.png');
+    background-size: 25px 25px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.a1 ul li:nth-child(4){
+    background-image: url('../img/nh.png');
+    background-size: 20px 20px;
+    background-position: center 10px;
+    background-repeat: no-repeat;
+}
+.a1 ul li:nth-child(4):hover{
+    background: blue;
+    background-image: url('../img/nb.png');
+    background-size: 20px 20px;
+    background-position: center 10px;
+    background-repeat: no-repeat;
+}
+.a1 ul li:nth-child(3){
+    background-image: url('../img/gh.png');
+    background-size: 25px 25px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.a1 ul li:nth-child(3):hover{
+    background: blue;
+    background-image: url('../img/Gh(1).png');
+    background-size: 25px 25px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.a1 ul li:nth-child(2){
+    background-image: url('../img/inh.png');
+    background-size: 25px 25px;
+    background-position: center 6px;
+    background-repeat: no-repeat;
+}
+.a1 ul li:nth-child(2):hover{
+    background: blue;
+    background-image: url('../img/inb.png');
+    background-size: 25px 25px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.a1 ul li:nth-child(1){
+    background-image: url('../img/zuqiuh.png');
+    background-size: 18px 18px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.a1 ul li:nth-child(1):hover{
+    background: white;
+
+}
+.jian{
+    display: block;
+    width: 50px;
+    height: 50px;
+    background: #345D59;
+    margin: 0 auto;
+    position: absolute;
+    top: -25px;
+    right: 50%;
+    transform: rotate(45deg);
+    z-index: 99;
+
+}
+@font-face {
+    font-family: 'iconfont';  /* project id 493127 */
+    src: url('http://at.alicdn.com/t/font_493127_fouwi33nbzz1tt9.eot');
+    src: url('http://at.alicdn.com/t/font_493127_fouwi33nbzz1tt9.eot?#iefix') format('embedded-opentype'),
+    url('http://at.alicdn.com/t/font_493127_fouwi33nbzz1tt9.woff') format('woff'),
+    url('http://at.alicdn.com/t/font_493127_fouwi33nbzz1tt9.ttf') format('truetype'),
+    url('http://at.alicdn.com/t/font_493127_fouwi33nbzz1tt9.svg#iconfont') format('svg');
+}
+.iconfont{
+    font-family: 'iconfont';
+    color: white;
+    font-size: 20px;
+    transform: rotate(-45deg);
+    margin-top: 10px;
+    margin-left: 14px;
+
+}
+.jian:hover{
+    background: #337ab7;
+}
+.jian:hover .iconfont{
+    color: black;
+}
